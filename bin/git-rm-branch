@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+if ARGV.length != 1
+  puts "Please provide a branch name."
+  exit
+end
+
+branch_name = ARGV[0]
+
+if branch_name == "master"
+  puts "No way you're deleting master"
+  exit
+end
+
+`git checkout master`
+
+puts "Removing branch #{branch_name}..."
+`git branch -D #{branch_name}`
+`git push origin :#{branch_name}`

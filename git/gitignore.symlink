@@ -1,0 +1,5 @@
+.idea
+script/rspec_runner.rb
+rspec_runner.rb
+.DS_Store
+*~

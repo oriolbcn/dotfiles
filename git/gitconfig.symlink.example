@@ -1,0 +1,26 @@
+[user]
+  name = AUTHORNAME
+  email = AUTHOREMAIL
+[push]
+	default = current
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+	pager = less -FRSX
+[web]
+	browser = google-chrome
+[color]
+	ui = true
+	diff = auto
+  status = auto
+  branch = auto
+[diff]
+	tool = gitx
+[branch]
+	autosetuprebase = always
+[alias]
+  co = checkout
+  wtf     = !$DOTFILES/bin/git-wtf
+  count   = !git shortlog -sn
+[help]
+  autocorrect = 1
