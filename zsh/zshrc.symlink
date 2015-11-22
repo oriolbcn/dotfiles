@@ -8,7 +8,7 @@ export PROJECTS=~/Documents
 export ANDROID_HOME=~/Documents/sdk
 
 # Look in ~/.oh-my-zsh/themes/
-ZSH_THEME="robbyrussell"
+ZSH_THEME="rambo"
 #alias tar='gtar'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -43,7 +43,9 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew rvm git-flow)
+plugins=(git brew rvm git-flow colorize screen)
+
+source $ZSH/oh-my-zsh.sh
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
@@ -79,8 +81,6 @@ done
 
 unset config_files
 
-source $ZSH/oh-my-zsh.sh
-z
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 

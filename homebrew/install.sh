@@ -22,6 +22,6 @@ then
 fi
 
 # Install homebrew packages
-brew install coreutils grc
+brew install coreutils grc fasd fortune
 
 exit 0

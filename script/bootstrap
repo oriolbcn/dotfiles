@@ -131,8 +131,14 @@ install_dotfiles () {
   done
 }
 
+install_oh_my_zsh_theme () {
+  info 'installing oh-my-zsh theme'
+  link_file $DOTFILES_ROOT/zsh/rambo.zsh-theme $HOME/.oh-my-zsh/custom/rambo.zsh-theme
+}
+
 setup_gitconfig
 install_dotfiles
+install_oh_my_zsh_theme
 
 echo ''
 echo '  All installed!'

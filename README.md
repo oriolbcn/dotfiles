@@ -44,6 +44,8 @@ Stuff to do when configuring a new machine:
 
 * Install oh-my-zsh
 * Install homebrew
+* Install rvm
+* gem install localt
 * Run script/bootstrap
 * Run script/install
 * Run osx/set-defaults-sh
