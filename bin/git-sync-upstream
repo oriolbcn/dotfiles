@@ -1,0 +1,12 @@
+#!/bin/sh
+# set bash to strict mode
+set -eu
+set -v
+
+# make sure we're on master
+git checkout master
+# pull original repo
+git fetch upstream
+# sync your master with upstream master and force push
+git reset --hard upstream/master
+git push origin master --force
