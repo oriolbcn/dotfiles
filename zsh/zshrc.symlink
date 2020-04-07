@@ -43,7 +43,7 @@ ZSH_THEME="rambo"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew rvm git-flow colorize screen)
+plugins=(git brew colorize screen)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,11 +83,6 @@ unset config_files
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-
-alias mysqls='mysql.server start'
-alias mysqlstop='mysql.server stop'
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export LANG=en_US.UTF-8
 
