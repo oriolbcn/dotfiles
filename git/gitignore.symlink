@@ -1,5 +1,6 @@
 .idea
 script/rspec_runner.rb
 rspec_runner.rb
+docker-compose.editor.yml
 .DS_Store
 *~
