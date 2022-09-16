@@ -1,1 +1,1 @@
-export EDITOR='mine'
+export EDITOR='code'

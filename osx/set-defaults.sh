@@ -101,7 +101,7 @@ defaults write NSGlobalDomain AppleFontSmoothing -int 2
 ###############################################################################
 
 # Show the ~/Library folder.
-chflags nohidden ~/Library
+chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
 
 # Set the Finder prefs for not showing external volumes on the Desktop.
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool false
